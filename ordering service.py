@@ -88,6 +88,7 @@ while True:
     formatted_price = f"${total}.99"
     print("[Goodie]: Your total amount to pay is: " + formatted_price + " (delivery fee included)")
 
+    
     confirmation = int(input("Press 1 to confirm: \n--"))
     if confirmation == 1:
         print("[*]Price Confirmed")
